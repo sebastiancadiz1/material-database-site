@@ -255,6 +255,7 @@ def material_detail_page(
 @route
 def about_page(state: State) -> Page:
     """Explain the purpose and limitations of the application."""
+
     return Page(state, [
         Header("About Material Strength Explorer"),
         HorizontalRule(),
